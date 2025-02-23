@@ -20,7 +20,15 @@
         </div>
          <div class="form-group">
             <label for="phone">Telephone</label>
-            <input type="text" name="phone" id="phone" class="form-control" value="{{ contact.phone }}" required>
+            <input type="tel" 
+                   name="phone" 
+                   id="phone" 
+                   class="form-control" 
+                   value="{{ contact.phone }}" 
+                   pattern="[0-9]+" 
+                   maxlength="15" 
+                   title="Please enter only numbers"
+                   required>
         </div>
         <button type="submit" class="btn btn-primary">Save Changes</button>
         <a href="{{ url_for('index') }}" class="btn btn-secondary">Cancel</a>
