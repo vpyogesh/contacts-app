@@ -17,7 +17,7 @@ A simple **Contacts Web Application** built with Flask and SQLite. This applicat
 To download the project, open your terminal and run:
 
 ```bash
-git clone https://github.com/yourusername/contacts-app.git
+git clone https://github.com/vpyogesh/contacts-app.git
 cd contacts-app
 ```
 
